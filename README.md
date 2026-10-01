@@ -17,7 +17,7 @@ This project contains exercises developed while studying Java fundamentals. The 
 
 - ✅ Module 01 - Variables
 - ✅ Module 02 - Scanner
-- ⏳ Module 03 - Operators
+- ✅ Module 03 - Operators
 - ⏳ Module 04 - Conditional Statements
 
 ## Author
