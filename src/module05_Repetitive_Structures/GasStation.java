@@ -23,7 +23,6 @@ public class GasStation {
 			if (code == 1) {
 
 				alcohol = alcohol + 1;
-				System.out.println(mensage);
 				System.out.printf("Alcohol: %d%n", alcohol);
 				System.out.printf("Gasoline: %d%n", gasoline);
 				System.out.printf("Diesel: %d%n", diesel);
@@ -32,7 +31,6 @@ public class GasStation {
 			} else if (code == 2) {
 
 				gasoline = gasoline + 1;
-				System.out.println(mensage);
 				System.out.printf("Alcohol: %d%n", alcohol);
 				System.out.printf("Gasoline: %d%n", gasoline);
 				System.out.printf("Diesel: %d%n", diesel);
@@ -41,7 +39,6 @@ public class GasStation {
 			} else if (code == 3) {
 
 				diesel = diesel + 1;
-				System.out.println(mensage);
 				System.out.printf("Alcohol: %d%n", alcohol);
 				System.out.printf("Gasoline: %d%n", gasoline);
 				System.out.printf("Diesel: %d%n", diesel);
@@ -59,6 +56,8 @@ public class GasStation {
 
 			System.out.println("Enter code: ");
 			code = scanner.nextInt();
+			
+			
 
 		}
 
