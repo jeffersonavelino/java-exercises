@@ -23,6 +23,7 @@ public class DivisionNumbers {
 			System.out.println("Enter the two numbers");
 			double x = scanner.nextInt();
 			double y = scanner.nextInt();
+			System.out.println();
 
 			if (y == 0) {
 
@@ -38,6 +39,8 @@ public class DivisionNumbers {
 			}
 
 		}
+
+		scanner.close();
 
 	}
 
